@@ -1,0 +1,20 @@
+<h1>Confirmación de compra</h1>
+<h3>{{ usuario }} su número de pedido es {{ numPedido }}</h3>
+
+<h3>Resumen de su compra:</h3>
+<table>
+    <tr>
+        <th>Código</th>
+        <th>Nombre</th>
+        <th>Unidades</th>
+        <th>Precio</th>
+    </tr>
+    {% for producto in cesta %}
+        <tr>
+            <td>{{ producto.producto.getCodigo() }}</td>
+            <td>{{ producto.producto.getNombre() }}</td>
+            <td>{{ producto.unidades}}</td>
+            <td>{{ producto.producto.getPvp() }}€</td>
+        <tr>
+    {% endfor %}
+</table>

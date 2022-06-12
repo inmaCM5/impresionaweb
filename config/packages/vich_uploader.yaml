@@ -1,0 +1,18 @@
+vich_uploader:
+    db_driver: orm
+    twig: true
+    form: true
+    storage: file_system
+    metadata:
+          auto_detection: true
+          cache: file
+          type: attribute
+    mappings:
+        productos_foto:
+            uri_prefix:         '%app.path.productos_foto%'
+            upload_destination: '%kernel.project_dir%/public/%app.path.productos_foto%'
+
+    #mappings:
+    #    products:
+    #        uri_prefix: /images/products
+    #        upload_destination: '%kernel.project_dir%/public/images/products'
