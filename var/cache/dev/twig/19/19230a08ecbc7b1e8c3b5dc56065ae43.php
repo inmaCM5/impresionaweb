@@ -162,7 +162,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
         // line 55
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("index");
         echo "\"><img src=\"";
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("imagenes/logo-nombre.pnp"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("imagenes/logo-nombre.png"), "html", null, true);
         echo "\" alt=\"Logo\" style=\"width: 150px;\"></a>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<!-- desktop logo Ends -->
@@ -621,13 +621,12 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
         echo "\" class=\"link\">Pulsa aquí para ver todas las opciones.</a>
 </div></div><div class=\"single-header-item bg_cover\" style=\"background-image: url(imagenes/fondo-gonzalo.png);\">
 <div class=\"header-item-content\">
-\t<h3 class=\"title\">Don’t say it with flowers: A NOMOS watch is a gift that lasts</h3>
-\t<a href=\"javascript:void(0)\" class=\"link\">Our Valentine's Day collection</a>
+\t<h3 class=\"title\">Visite nuestra tienda.</h3>
 </div></div><div class=\"single-header-item bg_cover\" style=\"background-image: url(imagenes/fondo-puerta.png);\">
 <div class=\"header-item-content\">
 \t<h3 class=\"title\">Fachada de nuestra papeleria, situada en la plazoleta del juncal.</h3>
 \t<a href=\"";
-        // line 353
+        // line 352
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contacto");
         echo "\" class=\"link\">Página de contacto</a>
 </div></div></div></div></section><!--====== Header Style 1 Part Ends ======--><!--====== Content Card Style 4 Part Start ======--><section class=\"content-card-style-4 pt-70 pb-100 bg-light\"><div class=\"container\"><div class=\"row justify-content-center\"><div class=\"col-lg-4 col-md-7 col-sm-8\">
@@ -641,7 +640,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 \t\t</h4>
 \t\t<p>Disponibles en la mayoría de áreas metropolitanas</p>
 \t\t<a href=\"";
-        // line 364
+        // line 363
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("productos");
         echo "\" class=\"more\">Haga su pedido</a>
 \t</div>
@@ -656,7 +655,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 \t\t</h4>
 \t\t<p>Si tiene alguna pregunta, ¡llámenos!</p>
 \t\t<a href=\"";
-        // line 376
+        // line 375
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("contacto");
         echo "\" class=\"more\">Contacto</a>
 \t</div>
@@ -664,11 +663,11 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 <div class=\"col-lg-5 col-md-7 col-sm-10\">
 \t<div class=\"footer-logo text-center\">
 \t\t<a href=\"";
-        // line 381
+        // line 380
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("index");
         echo "\">
 \t\t\t<img src=\"";
-        // line 382
+        // line 381
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("imagenes/logo-nombre.png"), "html", null, true);
         echo "\" alt=\"\">
 \t\t</a>
@@ -732,7 +731,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 
     }
 
-    // line 435
+    // line 434
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -787,7 +786,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 
     public function getDebugInfo()
     {
-        return array (  736 => 435,  672 => 382,  668 => 381,  660 => 376,  645 => 364,  631 => 353,  620 => 345,  604 => 333,  597 => 328,  588 => 321,  578 => 317,  570 => 312,  564 => 311,  560 => 310,  542 => 295,  535 => 291,  528 => 286,  524 => 285,  508 => 272,  497 => 263,  489 => 258,  483 => 255,  477 => 252,  471 => 249,  465 => 245,  463 => 244,  458 => 242,  449 => 235,  441 => 232,  430 => 229,  427 => 228,  423 => 227,  417 => 224,  414 => 223,  410 => 222,  392 => 209,  375 => 194,  368 => 190,  365 => 189,  359 => 186,  354 => 184,  351 => 183,  349 => 182,  332 => 168,  301 => 139,  293 => 135,  287 => 131,  278 => 124,  268 => 120,  260 => 115,  254 => 114,  250 => 113,  240 => 106,  231 => 103,  224 => 97,  220 => 96,  214 => 92,  194 => 74,  192 => 73,  181 => 65,  177 => 64,  163 => 55,  121 => 15,  111 => 14,  99 => 11,  95 => 10,  91 => 9,  87 => 8,  83 => 7,  79 => 6,  75 => 5,  70 => 4,  60 => 3,  37 => 1,);
+        return array (  735 => 434,  671 => 381,  667 => 380,  659 => 375,  644 => 363,  630 => 352,  620 => 345,  604 => 333,  597 => 328,  588 => 321,  578 => 317,  570 => 312,  564 => 311,  560 => 310,  542 => 295,  535 => 291,  528 => 286,  524 => 285,  508 => 272,  497 => 263,  489 => 258,  483 => 255,  477 => 252,  471 => 249,  465 => 245,  463 => 244,  458 => 242,  449 => 235,  441 => 232,  430 => 229,  427 => 228,  423 => 227,  417 => 224,  414 => 223,  410 => 222,  392 => 209,  375 => 194,  368 => 190,  365 => 189,  359 => 186,  354 => 184,  351 => 183,  349 => 182,  332 => 168,  301 => 139,  293 => 135,  287 => 131,  278 => 124,  268 => 120,  260 => 115,  254 => 114,  250 => 113,  240 => 106,  231 => 103,  224 => 97,  220 => 96,  214 => 92,  194 => 74,  192 => 73,  181 => 65,  177 => 64,  163 => 55,  121 => 15,  111 => 14,  99 => 11,  95 => 10,  91 => 9,  87 => 8,  83 => 7,  79 => 6,  75 => 5,  70 => 4,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -846,7 +845,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 \t\t\t\t\t\t\tclass=\"col-6\">
 \t\t\t\t\t\t\t<!-- desktop logo Start -->
 \t\t\t\t\t\t\t<div class=\"mobile-logo text-center\">
-\t\t\t\t\t\t\t\t<a href=\"{{ path('index') }}\"><img src=\"{{ asset('imagenes/logo-nombre.pnp') }}\" alt=\"Logo\" style=\"width: 150px;\"></a>
+\t\t\t\t\t\t\t\t<a href=\"{{ path('index') }}\"><img src=\"{{ asset('imagenes/logo-nombre.png') }}\" alt=\"Logo\" style=\"width: 150px;\"></a>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<!-- desktop logo Ends -->
 \t\t\t\t\t\t</div>
@@ -1139,8 +1138,7 @@ class __TwigTemplate_25aea286beacef1099c18317ed2f8d7a extends Template
 \t<a href=\"{{path('productos')}}\" class=\"link\">Pulsa aquí para ver todas las opciones.</a>
 </div></div><div class=\"single-header-item bg_cover\" style=\"background-image: url(imagenes/fondo-gonzalo.png);\">
 <div class=\"header-item-content\">
-\t<h3 class=\"title\">Don’t say it with flowers: A NOMOS watch is a gift that lasts</h3>
-\t<a href=\"javascript:void(0)\" class=\"link\">Our Valentine's Day collection</a>
+\t<h3 class=\"title\">Visite nuestra tienda.</h3>
 </div></div><div class=\"single-header-item bg_cover\" style=\"background-image: url(imagenes/fondo-puerta.png);\">
 <div class=\"header-item-content\">
 \t<h3 class=\"title\">Fachada de nuestra papeleria, situada en la plazoleta del juncal.</h3>
