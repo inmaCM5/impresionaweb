@@ -318,6 +318,7 @@
                 <tr>
                     <th>Código pedido</th>
                     <th>Código producto</th>
+                    <th>Nombre producto</th>
                     <th>Unidades</th>
                 </tr>
             </thead>
@@ -325,6 +326,7 @@
                 {% for pedidoProducto in pedidosProductos %}
                     <tr>
                         <td>{{ pedidoProducto.codPedido.id }}</td>
+                        <td>{{ pedidoProducto.codProducto.codigo }}</td>
                         <td>{{ pedidoProducto.codProducto.nombre }}</td>
                         <td>{{ pedidoProducto.unidades }}</td>
                     </tr>

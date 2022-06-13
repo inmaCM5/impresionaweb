@@ -245,149 +245,90 @@ class __TwigTemplate_00048b2848779a170bc312c35f3f391b extends Template
         </div>
     </section>
 
-
     <!--====== Footer Style 3 Part Start ======-->
-<section class=\"footer-style-3 pt-100 pb-100\">
-\t<div class=\"container\">
-\t\t<div class=\"footer-top\">
-\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t<div class=\"col-lg-5 col-md-7 col-sm-10\">
-\t\t\t\t\t<div class=\"footer-logo text-center\">
-\t\t\t\t\t\t<a href=\"";
-        // line 121
+    <section class=\"footer-style-3 pt-100 pb-100\">
+        <div class=\"container\">
+            <div class=\"footer-top\">
+                <div class=\"row justify-content-center\">
+                    <div class=\"col-lg-5 col-md-7 col-sm-10\">
+                        <div class=\"footer-logo text-center\">
+                            <a href=\"";
+        // line 120
         echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("index");
         echo "\">
-\t\t\t\t\t\t\t<img src=\"";
-        // line 122
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("imagenes/logo-nombre.jpg"), "html", null, true);
+                                <img src=\"";
+        // line 121
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("imagenes/logo-nombre.png"), "html", null, true);
         echo "\" alt=\"\">
-\t\t\t\t\t\t</a>
-\t\t\t\t\t</div>
-\t\t\t\t\t<h5 class=\"heading-5 text-center mt-30\">Síguenos</h5>
-\t\t\t\t\t<ul class=\"footer-follow text-center\">
-\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/impresionacopisteria/\">
-\t\t\t\t\t\t\t\t<i class=\"lni lni-facebook-filled\"></i>
-\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t</li>
-\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/impresionacopisteria/\">
-\t\t\t\t\t\t\t\t<i class=\"lni lni-instagram-original\"></i>
-\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t</li>
-\t\t\t\t\t</ul>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
+                            </a>
+                        </div>
+                        <h5 class=\"heading-5 text-center mt-30\">Síguenos</h5>
+                        <ul class=\"footer-follow text-center\">
+                            <li>
+                                <a href=\"https://www.facebook.com/impresionacopisteria/\">
+                                    <i class=\"lni lni-facebook-filled\"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://www.instagram.com/impresionacopisteria/\">
+                                    <i class=\"lni lni-instagram-original\"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-\t\t<div class=\"footer-widget-wrapper text-center pt-20\">
-\t\t\t<div class=\"row\">
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">PRODUCT</h5>
+            <div class=\"footer-widget-wrapper text-center pt-20\">
+                <div class=\"row\">
+                    <div class=\"col-lg-6 col-md-6 col-sm-12\">
+                        <div class=\"footer-widget\">
+                            <h5 class=\"footer-title\">PRODUCTOS</h5>
 
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Quest</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Rift S</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Gear VR</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Apps and Games</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Apps and Games</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Oculus for Business</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">DEVELOPERS</h5>
+                            <ul class=\"footer-link\">
+                                <li>
+                                    <p>Impresión</p>
+                                </li>
+                                <li>
+                                    <p>Libros</p>
+                                </li>
+                                <li>
+                                    <p>Copistería</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=\"col-lg-6 col-md-6 col-sm-12\">
+                        <div class=\"footer-widget\">
+                            <h5 class=\"footer-title\">ATENCIÓN AL CLIENTE</h5>
 
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Developer Centre</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Docs</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Downloads</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Tools</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Developer Blog</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Developer Forums</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">PRODUCT</h5>
+                            <ul class=\"footer-link\">
+                                <li>
+                                    <p>Política de privacidad</p>
+                                </li>
+                                <li>
+                                    <p>Aviso legal</p>
+                                </li>
+                                <li>
+                                    <p>Condiciones de venta</p>
+                                </li>
+                                <li>
+                                    <p>Política de Cookies</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Blog</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Careers</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Brand Centre</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Connect</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">PRODUCT</h5>
-
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">VR for Good</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Launch Pad</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Creators Lab</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Forums</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Support</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
-
-\t\t<div class=\"footer-copyright text-center\">
-\t\t\t<p>Developed by
-\t\t\t\t<a href=\"https://graygrids.com/\" rel=\"nofollow\" target=\"_blank\">GrayGrids</a>. Basesd on
-\t\t\t\t<a href=\"https://ecommercehtml.com/\" rel=\"nofollow\" target=\"_blank\">eCommerceHTML</a>
-\t\t\t</p>
-\t\t</div>
-\t</div>
-</section>
+            <div class=\"footer-copyright text-center\">
+                <p>Developed by
+                    <a href=\"https://graygrids.com/\" rel=\"nofollow\" target=\"_blank\">GrayGrids</a>. Basesd on
+                    <a href=\"https://ecommercehtml.com/\" rel=\"nofollow\" target=\"_blank\">eCommerceHTML</a>
+                </p>
+            </div>
+        </div>
+    </section>
 
 ";
         
@@ -398,7 +339,7 @@ class __TwigTemplate_00048b2848779a170bc312c35f3f391b extends Template
 
     }
 
-    // line 253
+    // line 194
     public function block_javascripts($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -408,52 +349,52 @@ class __TwigTemplate_00048b2848779a170bc312c35f3f391b extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 254
+        // line 195
         echo "\t<script src=\"";
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/popper.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 255
+        // line 196
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/bootstrap.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 256
+        // line 197
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/vendor/jquery-3.5.1.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 257
+        // line 198
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/vendor/modernizr-3.7.1.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 258
+        // line 199
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/slick.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 259
+        // line 200
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery-vj-accordion-steps.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 260
+        // line 201
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery-ui.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 261
+        // line 202
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery.form-validator.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 262
+        // line 203
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery.nice-select.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 263
+        // line 204
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/jquery.formatter.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 264
+        // line 205
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/count-up.min.js"), "html", null, true);
         echo "\"></script>
     <script src=\"";
-        // line 265
+        // line 206
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("js/main.js"), "html", null, true);
         echo "\"></script>
 ";
@@ -477,7 +418,7 @@ class __TwigTemplate_00048b2848779a170bc312c35f3f391b extends Template
 
     public function getDebugInfo()
     {
-        return array (  457 => 265,  453 => 264,  449 => 263,  445 => 262,  441 => 261,  437 => 260,  433 => 259,  429 => 258,  425 => 257,  421 => 256,  417 => 255,  412 => 254,  402 => 253,  262 => 122,  258 => 121,  239 => 105,  228 => 97,  220 => 92,  212 => 87,  204 => 82,  196 => 77,  189 => 72,  187 => 70,  179 => 65,  173 => 62,  149 => 41,  121 => 15,  111 => 14,  99 => 11,  95 => 10,  91 => 9,  87 => 8,  83 => 7,  79 => 6,  75 => 5,  70 => 4,  60 => 3,  37 => 1,);
+        return array (  398 => 206,  394 => 205,  390 => 204,  386 => 203,  382 => 202,  378 => 201,  374 => 200,  370 => 199,  366 => 198,  362 => 197,  358 => 196,  353 => 195,  343 => 194,  261 => 121,  257 => 120,  239 => 105,  228 => 97,  220 => 92,  212 => 87,  204 => 82,  196 => 77,  189 => 72,  187 => 70,  179 => 65,  173 => 62,  149 => 41,  121 => 15,  111 => 14,  99 => 11,  95 => 10,  91 => 9,  87 => 8,  83 => 7,  79 => 6,  75 => 5,  70 => 4,  60 => 3,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -594,143 +535,84 @@ class __TwigTemplate_00048b2848779a170bc312c35f3f391b extends Template
         </div>
     </section>
 
-
     <!--====== Footer Style 3 Part Start ======-->
-<section class=\"footer-style-3 pt-100 pb-100\">
-\t<div class=\"container\">
-\t\t<div class=\"footer-top\">
-\t\t\t<div class=\"row justify-content-center\">
-\t\t\t\t<div class=\"col-lg-5 col-md-7 col-sm-10\">
-\t\t\t\t\t<div class=\"footer-logo text-center\">
-\t\t\t\t\t\t<a href=\"{{ path('index') }}\">
-\t\t\t\t\t\t\t<img src=\"{{ asset('imagenes/logo-nombre.jpg') }}\" alt=\"\">
-\t\t\t\t\t\t</a>
-\t\t\t\t\t</div>
-\t\t\t\t\t<h5 class=\"heading-5 text-center mt-30\">Síguenos</h5>
-\t\t\t\t\t<ul class=\"footer-follow text-center\">
-\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t<a href=\"https://www.facebook.com/impresionacopisteria/\">
-\t\t\t\t\t\t\t\t<i class=\"lni lni-facebook-filled\"></i>
-\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t</li>
-\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t<a href=\"https://www.instagram.com/impresionacopisteria/\">
-\t\t\t\t\t\t\t\t<i class=\"lni lni-instagram-original\"></i>
-\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t</li>
-\t\t\t\t\t</ul>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
+    <section class=\"footer-style-3 pt-100 pb-100\">
+        <div class=\"container\">
+            <div class=\"footer-top\">
+                <div class=\"row justify-content-center\">
+                    <div class=\"col-lg-5 col-md-7 col-sm-10\">
+                        <div class=\"footer-logo text-center\">
+                            <a href=\"{{ path('index') }}\">
+                                <img src=\"{{ asset('imagenes/logo-nombre.png') }}\" alt=\"\">
+                            </a>
+                        </div>
+                        <h5 class=\"heading-5 text-center mt-30\">Síguenos</h5>
+                        <ul class=\"footer-follow text-center\">
+                            <li>
+                                <a href=\"https://www.facebook.com/impresionacopisteria/\">
+                                    <i class=\"lni lni-facebook-filled\"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=\"https://www.instagram.com/impresionacopisteria/\">
+                                    <i class=\"lni lni-instagram-original\"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-\t\t<div class=\"footer-widget-wrapper text-center pt-20\">
-\t\t\t<div class=\"row\">
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">PRODUCT</h5>
+            <div class=\"footer-widget-wrapper text-center pt-20\">
+                <div class=\"row\">
+                    <div class=\"col-lg-6 col-md-6 col-sm-12\">
+                        <div class=\"footer-widget\">
+                            <h5 class=\"footer-title\">PRODUCTOS</h5>
 
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Quest</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Rift S</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Gear VR</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Apps and Games</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Apps and Games</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Oculus for Business</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">DEVELOPERS</h5>
+                            <ul class=\"footer-link\">
+                                <li>
+                                    <p>Impresión</p>
+                                </li>
+                                <li>
+                                    <p>Libros</p>
+                                </li>
+                                <li>
+                                    <p>Copistería</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=\"col-lg-6 col-md-6 col-sm-12\">
+                        <div class=\"footer-widget\">
+                            <h5 class=\"footer-title\">ATENCIÓN AL CLIENTE</h5>
 
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Developer Centre</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Docs</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Downloads</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Tools</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Developer Blog</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Developer Forums</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">PRODUCT</h5>
+                            <ul class=\"footer-link\">
+                                <li>
+                                    <p>Política de privacidad</p>
+                                </li>
+                                <li>
+                                    <p>Aviso legal</p>
+                                </li>
+                                <li>
+                                    <p>Condiciones de venta</p>
+                                </li>
+                                <li>
+                                    <p>Política de Cookies</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Blog</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Careers</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Brand Centre</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Connect</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"col-lg-3 col-md-3 col-sm-6\">
-\t\t\t\t\t<div class=\"footer-widget\">
-\t\t\t\t\t\t<h5 class=\"footer-title\">PRODUCT</h5>
-
-\t\t\t\t\t\t<ul class=\"footer-link\">
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">VR for Good</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Launch Pad</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Creators Lab</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Forums</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t\t<li>
-\t\t\t\t\t\t\t\t<a href=\"javascript:void(0)\">Support</a>
-\t\t\t\t\t\t\t</li>
-\t\t\t\t\t\t</ul>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
-
-\t\t<div class=\"footer-copyright text-center\">
-\t\t\t<p>Developed by
-\t\t\t\t<a href=\"https://graygrids.com/\" rel=\"nofollow\" target=\"_blank\">GrayGrids</a>. Basesd on
-\t\t\t\t<a href=\"https://ecommercehtml.com/\" rel=\"nofollow\" target=\"_blank\">eCommerceHTML</a>
-\t\t\t</p>
-\t\t</div>
-\t</div>
-</section>
+            <div class=\"footer-copyright text-center\">
+                <p>Developed by
+                    <a href=\"https://graygrids.com/\" rel=\"nofollow\" target=\"_blank\">GrayGrids</a>. Basesd on
+                    <a href=\"https://ecommercehtml.com/\" rel=\"nofollow\" target=\"_blank\">eCommerceHTML</a>
+                </p>
+            </div>
+        </div>
+    </section>
 
 {% endblock %}
 
