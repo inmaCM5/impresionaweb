@@ -147,8 +147,6 @@
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
     <parameter key="twig.default_path">C:\xampp\htdocs\tienda\tiendaPapel/templates</parameter>
-    <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
-    <parameter key="web_profiler.debug_toolbar.mode">2</parameter>
     <parameter key="monolog.use_microseconds">true</parameter>
     <parameter key="monolog.swift_mailer.handlers" type="collection"/>
     <parameter key="monolog.handlers_to_channels" type="collection">
@@ -2527,14 +2525,6 @@
         <argument>0</argument>
       </call>
       <call method="addListener">
-        <argument>kernel.response</argument>
-        <argument type="collection">
-          <argument type="service_closure" id="web_profiler.debug_toolbar"/>
-          <argument>onKernelResponse</argument>
-        </argument>
-        <argument>-128</argument>
-      </call>
-      <call method="addListener">
         <argument>console.command</argument>
         <argument type="collection">
           <argument type="service_closure" id="monolog.handler.console"/>
@@ -4183,17 +4173,6 @@
       <argument>?file=%%f&amp;line=%%l#line%%l</argument>
       <factory class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" method="generateUrlFormat"/>
     </service>
-    <service id="web_profiler.debug_toolbar" class="Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener">
-      <tag name="kernel.event_subscriber"/>
-      <tag name="container.hot_path"/>
-      <argument type="service" id="twig"/>
-      <argument>false</argument>
-      <argument>2</argument>
-      <argument type="service" id="router.default" on-invalid="ignore"/>
-      <argument>^/((index|app(_[\w]+)?)\.php/)?_wdt</argument>
-      <argument type="service" id="web_profiler.csp.handler"/>
-      <argument type="service" id="data_collector.dump" on-invalid="ignore"/>
-    </service>
     <service id="monolog.logger" class="Symfony\Bridge\Monolog\Logger">
       <argument>app</argument>
       <call method="pushProcessor">
@@ -4265,7 +4244,7 @@
       <argument type="service" id="debug.stopwatch" on-invalid="ignore"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
       <argument>UTF-8</argument>
-      <argument type="service" id="request_stack"/>
+      <argument>null</argument>
       <argument type="service" id="var_dumper.server_connection"/>
     </service>
     <service id="debug.dump_listener" class="Symfony\Component\HttpKernel\EventListener\DumpListener">
