@@ -49,7 +49,7 @@ class Usuarios implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\OneToMany(mappedBy: 'usuario', targetEntity: Pedido::class)]
     private $pedidos;
 
-    #[ORM\Column(type: 'string', length: 255)]
+    #[ORM\Column(type: 'string', length: 255, nullable: true)]
     private $plainPassword;
 
     public function __construct()
